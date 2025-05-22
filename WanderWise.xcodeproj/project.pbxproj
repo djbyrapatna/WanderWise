@@ -21,12 +21,28 @@
 			remoteGlobalIDString = B6530F6E2DDF7BE000C728A5;
 			remoteInfo = WanderWise;
 		};
+		B6530FC42DDF8D7200C728A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6530F672DDF7BE000C728A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6530F6E2DDF7BE000C728A5;
+			remoteInfo = WanderWise;
+		};
+		B6530FD12DDF8D9200C728A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6530F672DDF7BE000C728A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6530F6E2DDF7BE000C728A5;
+			remoteInfo = WanderWise;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B6530F6F2DDF7BE000C728A5 /* WanderWise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WanderWise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6530F7F2DDF7BE200C728A5 /* WanderWiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WanderWiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6530F892DDF7BE200C728A5 /* WanderWiseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WanderWiseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6530FC02DDF8D7200C728A5 /* TourCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TourCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6530FCD2DDF8D9200C728A5 /* AuthCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuthCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -43,6 +59,16 @@
 		B6530F8C2DDF7BE200C728A5 /* WanderWiseUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = WanderWiseUITests;
+			sourceTree = "<group>";
+		};
+		B6530FC12DDF8D7200C728A5 /* TourCoreTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TourCoreTests;
+			sourceTree = "<group>";
+		};
+		B6530FCE2DDF8D9200C728A5 /* AuthCoreTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AuthCoreTests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -69,6 +95,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B6530FBD2DDF8D7200C728A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6530FCA2DDF8D9200C728A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +118,8 @@
 				B6530F712DDF7BE000C728A5 /* WanderWise */,
 				B6530F822DDF7BE200C728A5 /* WanderWiseTests */,
 				B6530F8C2DDF7BE200C728A5 /* WanderWiseUITests */,
+				B6530FC12DDF8D7200C728A5 /* TourCoreTests */,
+				B6530FCE2DDF8D9200C728A5 /* AuthCoreTests */,
 				B6530F702DDF7BE000C728A5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +130,8 @@
 				B6530F6F2DDF7BE000C728A5 /* WanderWise.app */,
 				B6530F7F2DDF7BE200C728A5 /* WanderWiseTests.xctest */,
 				B6530F892DDF7BE200C728A5 /* WanderWiseUITests.xctest */,
+				B6530FC02DDF8D7200C728A5 /* TourCoreTests.xctest */,
+				B6530FCD2DDF8D9200C728A5 /* AuthCoreTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,6 +207,52 @@
 			productReference = B6530F892DDF7BE200C728A5 /* WanderWiseUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		B6530FBF2DDF8D7200C728A5 /* TourCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6530FC62DDF8D7200C728A5 /* Build configuration list for PBXNativeTarget "TourCoreTests" */;
+			buildPhases = (
+				B6530FBC2DDF8D7200C728A5 /* Sources */,
+				B6530FBD2DDF8D7200C728A5 /* Frameworks */,
+				B6530FBE2DDF8D7200C728A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6530FC52DDF8D7200C728A5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B6530FC12DDF8D7200C728A5 /* TourCoreTests */,
+			);
+			name = TourCoreTests;
+			packageProductDependencies = (
+			);
+			productName = TourCoreTests;
+			productReference = B6530FC02DDF8D7200C728A5 /* TourCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6530FCC2DDF8D9200C728A5 /* AuthCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6530FD32DDF8D9200C728A5 /* Build configuration list for PBXNativeTarget "AuthCoreTests" */;
+			buildPhases = (
+				B6530FC92DDF8D9200C728A5 /* Sources */,
+				B6530FCA2DDF8D9200C728A5 /* Frameworks */,
+				B6530FCB2DDF8D9200C728A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6530FD22DDF8D9200C728A5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B6530FCE2DDF8D9200C728A5 /* AuthCoreTests */,
+			);
+			name = AuthCoreTests;
+			packageProductDependencies = (
+			);
+			productName = AuthCoreTests;
+			productReference = B6530FCD2DDF8D9200C728A5 /* AuthCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -184,6 +274,14 @@
 						CreatedOnToolsVersion = 16.2;
 						TestTargetID = B6530F6E2DDF7BE000C728A5;
 					};
+					B6530FBF2DDF8D7200C728A5 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B6530F6E2DDF7BE000C728A5;
+					};
+					B6530FCC2DDF8D9200C728A5 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B6530F6E2DDF7BE000C728A5;
+					};
 				};
 			};
 			buildConfigurationList = B6530F6A2DDF7BE000C728A5 /* Build configuration list for PBXProject "WanderWise" */;
@@ -195,6 +293,10 @@
 			);
 			mainGroup = B6530F662DDF7BE000C728A5;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B6530FBA2DDF86BF00C728A5 /* XCLocalSwiftPackageReference "Modules/TourCore" */,
+				B6530FBB2DDF86CF00C728A5 /* XCLocalSwiftPackageReference "Modules/AuthCore" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B6530F702DDF7BE000C728A5 /* Products */;
 			projectDirPath = "";
@@ -203,6 +305,8 @@
 				B6530F6E2DDF7BE000C728A5 /* WanderWise */,
 				B6530F7E2DDF7BE200C728A5 /* WanderWiseTests */,
 				B6530F882DDF7BE200C728A5 /* WanderWiseUITests */,
+				B6530FBF2DDF8D7200C728A5 /* TourCoreTests */,
+				B6530FCC2DDF8D9200C728A5 /* AuthCoreTests */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +327,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B6530F872DDF7BE200C728A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6530FBE2DDF8D7200C728A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6530FCB2DDF8D9200C728A5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,6 +371,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B6530FBC2DDF8D7200C728A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6530FC92DDF8D9200C728A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -265,6 +397,16 @@
 			isa = PBXTargetDependency;
 			target = B6530F6E2DDF7BE000C728A5 /* WanderWise */;
 			targetProxy = B6530F8A2DDF7BE200C728A5 /* PBXContainerItemProxy */;
+		};
+		B6530FC52DDF8D7200C728A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6530F6E2DDF7BE000C728A5 /* WanderWise */;
+			targetProxy = B6530FC42DDF8D7200C728A5 /* PBXContainerItemProxy */;
+		};
+		B6530FD22DDF8D9200C728A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6530F6E2DDF7BE000C728A5 /* WanderWise */;
+			targetProxy = B6530FD12DDF8D9200C728A5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -512,6 +654,74 @@
 			};
 			name = Release;
 		};
+		B6530FC72DDF8D7200C728A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.byrapatna.dhruva.TourCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WanderWise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WanderWise";
+			};
+			name = Debug;
+		};
+		B6530FC82DDF8D7200C728A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.byrapatna.dhruva.TourCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WanderWise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WanderWise";
+			};
+			name = Release;
+		};
+		B6530FD42DDF8D9200C728A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.byrapatna.dhruva.AuthCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WanderWise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WanderWise";
+			};
+			name = Debug;
+		};
+		B6530FD52DDF8D9200C728A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.byrapatna.dhruva.AuthCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WanderWise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WanderWise";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -551,7 +761,36 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		B6530FC62DDF8D7200C728A5 /* Build configuration list for PBXNativeTarget "TourCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6530FC72DDF8D7200C728A5 /* Debug */,
+				B6530FC82DDF8D7200C728A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6530FD32DDF8D9200C728A5 /* Build configuration list for PBXNativeTarget "AuthCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6530FD42DDF8D9200C728A5 /* Debug */,
+				B6530FD52DDF8D9200C728A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		B6530FBA2DDF86BF00C728A5 /* XCLocalSwiftPackageReference "Modules/TourCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Modules/TourCore;
+		};
+		B6530FBB2DDF86CF00C728A5 /* XCLocalSwiftPackageReference "Modules/AuthCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Modules/AuthCore;
+		};
+/* End XCLocalSwiftPackageReference section */
 	};
 	rootObject = B6530F672DDF7BE000C728A5 /* Project object */;
 }
